@@ -1,4 +1,4 @@
-//NIM dabs október 1997
+NIM dabs október 1997
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -15,7 +15,7 @@ int samtals( int* hruga );
 //Þetta fall lætur tölvuna gera:
 void tolva( int* hruga );
 
-//Þetta fall lætur notandann gera:
+//Þetta fall lætur notandann gera tad:
 void notandi( int* hruga );
 
 //Þetta fall birtir reglurnar í spilinu:
@@ -62,8 +62,8 @@ void spila( )
 {
 	int hruga[ 10 ];
 	cout << "*-------------------------------------------------------*" << endl;
-	cout << "                   NU SPILUM VID NIM!!" << endl;
-	cout << "*-------------------------------------------------------*" << endl;
+	cout << "                   NU SPILUM VID GOLF!!" << endl;
+	cout << "*------------------------------------------------------*" << endl;
 	cout << endl << endl;
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
 	cout << "Yttu a einhvern lykil: " << endl;
@@ -227,6 +227,4 @@ int samtals( int* hruga )
 	{
 		samtala += hruga[ i ];
 	}
-
-	return samtala;
 }
