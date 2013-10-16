@@ -96,9 +96,9 @@ void hjalp( )
 	cout << "              UM NIM - LEIKINN " << endl << endl;
 	cout << "Leikurinn NIM er upprunninn fra Asiu thar sem hann var" << endl;
 	cout << "leikinn med steinvolum.  Reglurnar eru thessar: " << endl;
-	cout << "Keppendur setja einhvern fjolda af eldspytum i hrugur " << endl;
+	cout << "EF ARNAR KARI ER AD SPILA THA VINNUR HANN ALLTAF!" << endl;
 	cout << "(their akveda sjalfir hve margar hrugur og hve margar " << endl;
-	cout << "eldspytur i hverri hrugu) og skiptast svo a um ad " << endl;
+	cout << "eldpikur i hverri hrugu) og skiptast svo a um ad " << endl;
 	cout << "draga eldspytur ur einhverri hrugunni.  Their mega " << endl;
 	cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
 	cout << "hrugunni en their mega aldrei taka ur fleiri en " << endl;
