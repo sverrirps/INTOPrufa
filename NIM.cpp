@@ -98,7 +98,12 @@ void hjalp( )
 	cout << "leikinn med steinvolum.  Reglurnar eru thessar: " << endl;
 	cout << "EF ARNAR KARI ER AD SPILA THA VINNUR HANN ALLTAF!" << endl;
 	cout << "(their akveda sjalfir hve margar hrugur og hve margar " << endl;
+<<<<<<< HEAD
 	cout << "eldpikur i hverri hrugu) og skiptast svo a um ad " << endl;
+=======
+	cout << "samt ekki alltof margar, tad nennir tvi enginn" << endl;
+	cout << "eldspytur i hverri hrugu) og skiptast svo a um ad " << endl;
+>>>>>>> 1be7679943d6b8ee3b8c47c37cd467879fa3e2ca
 	cout << "draga eldspytur ur einhverri hrugunni.  Their mega " << endl;
 	cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
 	cout << "hrugunni en their mega aldrei taka ur fleiri en " << endl;
@@ -172,7 +177,7 @@ void notandi( int* hruga )
 	hruga[ hrugunumer - 1 ] -= eldspytur;
 	if( !samtals( hruga ) )
 	{
-		cout << endl << "Thu vannst.  Til hamingju!" << endl << endl;
+		cout << endl << "Thu vannst.  Til hamingju fadu ter hamstur!" << endl << endl;
 		cout << "Sladu a einhvern lykil... " << endl;
 		getchar( );
 	}
@@ -229,4 +234,8 @@ int samtals( int* hruga )
 	}
 
 	return samtala;
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 1be7679943d6b8ee3b8c47c37cd467879fa3e2ca
